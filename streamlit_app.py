@@ -68,7 +68,7 @@ if streamlit.button('Get Fruit Load List'):
     streamlit.dataframe(my_data_row)
 
 
-streamlit.write('The user entered ', fruit_choice)
+#streamlit.write('The user entered ', fruit_choice)
 #new section to display fruitvice api response
 
 #streamlit.text(fruityvice_response)
