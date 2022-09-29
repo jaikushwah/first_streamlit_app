@@ -35,5 +35,4 @@ fruityvice_response=requests.get("https://fruityvice.com/api/fruit/watermelon")
 #streamlit.text(fruityvice_response)
 #converting the response in json format
 streamlit.text(fruityvice_response.json())
-stremlit.dataframe(fruityvice_response.json())
 
