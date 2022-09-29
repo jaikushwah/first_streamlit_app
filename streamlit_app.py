@@ -60,4 +60,7 @@ streamlit.dataframe(my_data_rows)
 #my_data_row = my_cur.fetchone()
 #streamlit.text("Hello from Snowflake:")
 #streamlit.text(my_data_row)
-
+#creating a text box to add fruit
+add_my_fruit=streamlit.input_text("What fruit would you like to add?",'jackfruit')
+#displaying the selected fruit
+streamlit.write("Thanks for adding",add_my_fruit)
